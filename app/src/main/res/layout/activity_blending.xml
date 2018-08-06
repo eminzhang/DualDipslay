@@ -20,28 +20,21 @@
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="@drawable/cover_bg"/>
+        android:background="@drawable/test_bg03"/>
     <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:background="#000000"
+        android:background="#66666666"
         android:textSize="40sp"
         android:singleLine="true"
         android:ellipsize="marquee"
-        android:marqueeRepeatLimit="marquee_forever"
-        android:layout_gravity="center"
-        android:text="VIA CUSTOM IOT DESIGN SERVICES --  Tailor-made board and system designs to match your application-specific requirements" />
-    <TextClock
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="80dp"
-        android:format24Hour="HH:mm:ss"
+        android:focusable="true"
         android:textStyle="bold"
-        android:layout_gravity="center"
-        android:textSize="40sp">
-
-    </TextClock>
+        android:textColor="#ffffff"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:layout_gravity="center|top"
+        android:text="VIA CUSTOM IOT DESIGN SERVICES --  Tailor-made board and system designs to match your application-specific requirements" />
 
 
 </FrameLayout>

@@ -50,9 +50,6 @@ public class BlendingActivity extends Activity {
         presentation.show();
     }
 
-	
-
-
 	/**
 	 * 检查应用程序是否有权写入设备存储
 	 * 如果应用程序没有权限，则会提示用户授予权限

@@ -77,7 +77,6 @@ import java.io.IOException;
         mSurfaceView2.setZOrderMediaOverlay(true);//如果不添加，mSurfaceView2上面的view将会被覆盖不显示
         mTextView = findViewById(R.id.textView);
         mTextView.setSelected(true);
-
     }
 
     private void initPlayer1(){
